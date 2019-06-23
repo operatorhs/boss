@@ -19,6 +19,7 @@
  
 ### 查看历史提交记录
 - `git log --online`
+- `git log` 查看所有的的提交次数
 
 ### GitHub 
 - 不是git，只是一个网站
@@ -28,3 +29,15 @@
 - `git push [address] master`
  + 会把当前分支的内容上传到远程的master分支上
  + 示例 `$ git push https://github.com/operatorhs/boss.git master`
+
+### `git pull [address] master`
+ + 示例： `$ git pull https://github.com/operatorhs/boss.git master`
+ + 把代码初始化到笨的仓库
+ 
+### `git clone [address]` 多次执行会覆盖本地的内容
+ + 示例`git clone https://github.com/operatorhs/boss.git `
+
+### ssh 方式上传代码
+- 公钥 私钥，两者之间是有关联的
+- 生成公钥，和私钥（/c/Users/NI/.ssh/id_rsa）.pub文件为公钥
+- `ssh-keygen -t rsa -C "operatorhs"` 示例 `$ ssh-keygen -t rsa -C "operatorhs"`
