@@ -41,3 +41,6 @@
 - 公钥 私钥，两者之间是有关联的
 - 生成公钥，和私钥（/c/Users/NI/.ssh/id_rsa）.pub文件为公钥
 - `ssh-keygen -t rsa -C "operatorhs"` 示例 `$ ssh-keygen -t rsa -C "operatorhs"`
+- 上传示例`$ git push git@github.com:operatorhs/ssh_test.git master`
+
+## 本地提交先pull 在push 可以先解决冲突 把最新版本上传到服务器
