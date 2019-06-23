@@ -43,4 +43,9 @@
 - `ssh-keygen -t rsa -C "operatorhs"` 示例 `$ ssh-keygen -t rsa -C "operatorhs"`
 - 上传示例`$ git push git@github.com:operatorhs/ssh_test.git master`
 
-## 本地提交先pull 在push 可以先解决冲突 把最新版本上传到服务器
+### 本地提交先pull 在push 可以先解决冲突 把最新版本上传到服务器
+- 当我们在push时，加上一个-u参数，那么下一次push时
+- 我只需要写上`git push`就能上传我们的代码。(加上-u之后，git会把当前分支与远程的指定分支进行关联`git push origin master`) 
+
+### 添加本地address 
+- 创建一个origin变量代表 【address】 `$ git remote add origin git@github.com:operatorhs/boss.git`
