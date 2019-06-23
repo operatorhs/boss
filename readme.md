@@ -49,3 +49,6 @@
 
 ### 添加本地address 
 - 创建一个origin变量代表 【address】 `$ git remote add origin git@github.com:operatorhs/boss.git`
+
+### 版本回退
+- 示例 `git reset --hard Head~0` 回退到上一个把版本
