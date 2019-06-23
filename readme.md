@@ -2,6 +2,9 @@
 这是第五个功能
 这是我们做的另一个功能
 
+### 把我们的代码仓储门口
+- `git add ./` 
+`git commit -m` 
 
 ### 创建分支
 - `git branch dev`
